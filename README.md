@@ -1,31 +1,62 @@
-# 🖼️ Prompt2Mask
+# 🗺️ Prompt2Mask
 
-A fast and efficient visual annotation tool powered by Grounded-Segment-Anything.  
-Save time and reduce labeling costs with **zero-shot segmentation using natural language prompts**.  
-Perfect for creating high-quality datasets with minimal effort.
-
-<p align="center">
-  <img src="assets/demo.gif" width="600"/>
-  <br/>
-  <i>Zero-shot mask generation with just a prompt!</i>
-</p>
+**Prompt2Mask** is an AI-powered visual annotation tool for **map and road object labeling**.  
+Built on top of [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything), it enables **natural language-driven segmentation** and delivers **clean, structured polygon outputs** with **valuable statistics** — so you can save time, effort, and labeling costs.
 
 ---
 
-## 🚀 Features
+## 💎 Why Use Prompt2Mask?
 
-- 💬 Segment anything using text prompts (e.g., "tree", "person", "car")
-- ⚡ Fast and scalable on modern GPUs
-- 🖼️ Visual interface (optional)
-- 🧠 Built on GroundingDINO + Segment Anything
-- 📦 Export masks, bounding boxes, or coco-style annotations
+While Segment Anything (SAM) only returns **binary masks**, **Prompt2Mask** goes further:
+
+✅ We convert SAM masks to **polygonal annotations**  
+✅ We automatically filter and clean the masks  
+✅ We provide **statistics per class**, **per image**, and **per session**  
+✅ You get a ready-to-use structured output for ML pipelines, annotation tools, and GIS systems
+
+✨ **No post-editing required. It's annotation made effortless.**
 
 ---
 
-## 🛠 Installation
+## 🚀 What is Prompt2Mask?
 
-1. Clone the repo
-   ```bash
-   git clone https://github.com/yourname/Prompt2Mask.git
-   cd Prompt2Mask
+**Prompt2Mask** enables fast, zero-shot annotation of **road and map features** using simple text prompts like `"asphalt"`, `"pothole"`, `"zebra crossing"`, or `"traffic sign"`.  
+It's perfect for:
 
+- 🛣️ Autonomous Driving
+- 🗺️ Mapmaking & HD Maps
+- 🧭 GIS Applications
+- 🚧 Road Maintenance & Urban Mobility
+
+---
+
+## 🎯 Key Features
+
+- ✅ **Zero-shot segmentation** with natural language prompts
+- 📐 **Polygons instead of masks** — perfect for annotation tools
+- 📊 **Detailed stats**: object counts, areas, classes, and more
+- 💾 Export to COCO-style JSON, PNG masks, or shapefiles
+- 🧠 Optimized for **road and map-related object classes**
+- 🛠️ Modular post-processing script to adapt to your use case
+
+---
+
+## 🧱 Label Objects Like:
+
+- **Road Surface**: `asphalt`, `concrete`, `gravel`, `dirt road`, `mud`, `cobblestone`
+- **Markings**: `lane markings`, `zebra crossing`, `bike lane marking`, `arrow markings`, `stop line`
+- **Damage & Irregularities**: `pothole`, `crack`, `manhole`, `speed bump`, `construction zone`
+- **Signs & Poles**: `traffic sign`, `stop sign`, `direction board`, `traffic light`, `roadside pole`, `street lamp`
+- **Boundaries & Edges**: `curb`, `sidewalk`, `footpath`, `median strip`, `barrier`, `guard rail`
+- **Street Elements**: `drain`, `bus stop`, `bollard`, `crosswalk`, `reflector`, `speed limit sign`
+- **Others**: `pedestrian`, `bicycle`, `car`, `truck`, `building`, `tree`, `vegetation`
+
+🔧 Add your own object prompts easily!
+
+---
+
+## 🧪 Quick Start
+
+```bash
+git clone https://github.com/PallawiRajendra/Prompt2Mask.git
+cd Prompt2Mask
