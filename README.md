@@ -40,6 +40,17 @@ It's perfect for:
 - 🛠️ Modular post-processing script to adapt to your use case
 
 ---
+## 🛤️ Roadmap
+
+- ✅ **Prompt-based segmentation & mask saving** — Done  
+- ✅ **Smart polygon selection** with **GUI interface** (powered by post-processing script) — Done  
+- ✅ **CSV export** of road surface segmentation results — Done  
+- 🔄 **Pole segmentation** — *In Progress*  
+- 🔜 Multi-object prompt support (e.g., "road + pole + sidewalk")  
+- 🔜 Export masks to COCO, YOLO, or GIS-compatible formats  
+- 🔜 Web UI for end-to-end annotation  
+- 🔜 Integration with real-world datasets (e.g., Mapillary, OpenStreetCam)
+---
 
 ## 🧱 Label Objects Like:
 
