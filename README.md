@@ -1,26 +1,26 @@
-# 🗺️ Prompt2Mask
+# 🛣️ Prompt2Poly — for Road Object Segmentation
 
-**Prompt2Mask** is an AI-powered visual annotation tool for **map and road object labeling**.  
+**Prompt2Poly** is an AI-powered annotation tool that converts **natural language prompts** into **precise polygon masks** for **road and map features**.  
 Built on top of [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything), it enables **natural language-driven segmentation** and delivers **clean, structured polygon outputs** with **valuable statistics** — so you can save time, effort, and labeling costs.
 
 ---
 
-## 💎 Why Use Prompt2Mask?
+## 💎 Why Use Prompt2Poly?
 
-While Segment Anything (SAM) only returns **binary masks**, **Prompt2Mask** goes further:
+While Segment Anything (SAM) only returns **binary masks**, **Prompt2Poly** goes further:
 
-✅ We convert SAM masks to **polygonal annotations**  
-✅ We automatically filter and clean the masks  
-✅ We provide **statistics per class**, **per image**, and **per session**  
-✅ You get a ready-to-use structured output for ML pipelines, annotation tools, and GIS systems
+✅ Converts SAM masks into **polygonal annotations**  
+✅ Filters and cleans masks automatically  
+✅ Provides **statistics per class**, **per image**, and **per session**  
+✅ Outputs ready-to-use formats for ML pipelines, annotation tools, and GIS systems
 
 ✨ **No post-editing required. It's annotation made effortless.**
 
 ---
 
-## 🚀 What is Prompt2Mask?
+## 🚀 What is Prompt2Poly?
 
-**Prompt2Mask** enables fast, zero-shot annotation of **road and map features** using simple text prompts like `"asphalt"`, `"pothole"`, `"zebra crossing"`, or `"traffic sign"`.  
+**Prompt2Poly** enables fast, zero-shot annotation of **road and map features** using simple text prompts like `"asphalt"`, `"pothole"`, `"zebra crossing"`, or `"traffic sign"`.  
 It's perfect for:
 
 - 🛣️ Autonomous Driving
@@ -58,5 +58,5 @@ It's perfect for:
 ## 🧪 Quick Start
 
 ```bash
-git clone https://github.com/PallawiRajendra/Prompt2Mask.git
-cd Prompt2Mask
+git clone https://github.com/PallawiRajendra/Prompt2Poly.git
+cd Prompt2Poly
